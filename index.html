@@ -150,26 +150,10 @@ var _hmt = _hmt || [];
   <div class="row">
 	
 	
-		<h1 id="title1"><a href="#title1" class="headerlink" title="title1"></a>title1</h1><pre><code>#!/usr/bin/env python
-def hello_world():
-    print(&apos;hello_world&apos;)
-</code></pre><h2 id="title2"><a href="#title2" class="headerlink" title="title2"></a>title2</h2><ul>
-<li><p>1</p>
-<blockquote>
-<ol>
-<li>pageA</li>
-<li>pageB</li>
-<li>pageC</li>
-</ol>
-</blockquote>
-</li>
-<li><p>2</p>
-</li>
-<li>3</li>
-<li>4</li>
-</ul>
-<h3 id="title3"><a href="#title3" class="headerlink" title="title3"></a>title3</h3><p>[younghz的Markdown库1][1] </p>
-<p>[younghz的Markdown库2][2]<br>[1]:https:://github.com/younghz/Markdown “Markdown”<br>[2]:https:://github.com/younghz/Markdown “Markdown”</p>
+		<h1 id="title1"><a href="#title1" class="headerlink" title="title1"></a>title1</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello_world</span><span class="params">()</span>:</span></span><br><span class="line">    print(<span class="string">'hello_world'</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/env python</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">hello_world</span><span class="params">()</span>:</span></span><br><span class="line">    print(hello_world)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> pyzabbix <span class="keyword">import</span> ZabbixAPI</span><br><span class="line"></span><br><span class="line">zapi = ZabbixAPI(<span class="string">"http://zabbixserver.example.com"</span>)</span><br><span class="line">zapi.login(<span class="string">"zabbix user"</span>, <span class="string">"zabbix pass"</span>)</span><br><span class="line">print(<span class="string">"Connected to Zabbix API Version %s"</span> % zapi.api_version())</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> h <span class="keyword">in</span> zapi.host.get(output=<span class="string">"extend"</span>):</span><br><span class="line">    print(h[<span class="string">'hostid'</span>])</span><br></pre></td></tr></table></figure>
+<p><a href="https:://github.com/younghz/Markdown" target="_blank" rel="noopener">younghz的Markdown库1</a><br><a href="https:://github.com/younghz/Markdown" target="_blank" rel="noopener">younghz的Markdown库2</a></p>
 
 	
 	</div>
@@ -246,8 +230,27 @@ def hello_world():
 
 		
 			
+	<div class="widget">
+		<h4>Categories</h4>
+		<ul class="tag_box inline list-unstyled">
+		
+			<li><a href="/categories/test/">test<span>1</span></a></li>
+		
+		</ul>
+	</div>
+
 		
 			
+	<div class="widget">
+		<h4>Tag Cloud</h4>
+		<ul class="tag_box inline list-unstyled">		
+		
+			<li><a href="/tags/test/">test<span>1</span></a></li>
+		
+		 
+		</ul>
+	</div>
+
 
 		
 			
